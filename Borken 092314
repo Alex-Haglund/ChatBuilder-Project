@@ -20,10 +20,6 @@
        $(document).ready(function(){
 
 
-
-//Chat.send(($(".draft").val()));
-
-
 setInterval(function(){
   var rChat = Math.floor((Math.random() * 9) + 1);
 $.ajax({
